@@ -5,18 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="traccia3.css">
 </head>
 
 <body>
+    <script type="text/javascript" src="traccia3.js"></script>
     <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta quibusdam totam quidem vitae, corrupti
+        <p id="cambia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta quibusdam totam
+            quidem
+            vitae, corrupti
             debitis quis, cumque quia optio maiores libero minus voluptates est odit. Molestiae nisi quidem veritatis.
         </p>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <p>terzo paragrafo</p>
+        <p id="cambia1">Lorem ipsum dolor sit amet consectetur.</p>
+        <p id="cambia2">terzo paragrafo</p>
     </div>
     <div>
-
+        <button class="btn" onclick='cambiaColore()'>cambia Colore</button>
+        <button class="btn" onclick="rendeGrassetto(['cambia' , 'cambia1' , 'cambia2'])">cambia Caratteri</button>
+        <button class="btn" onclick='scompariRiappari()'>Scomparire/Riapparire paragrafi</button>
     </div>
 </body>
 
