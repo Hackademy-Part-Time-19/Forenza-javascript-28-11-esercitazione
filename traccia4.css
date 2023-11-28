@@ -1,0 +1,46 @@
+.content {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.contenitore {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+p {
+    margin-right: 5px;
+}
+
+.inserimento {
+    height: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 60vh;
+    background-color: aquamarine;
+    border-radius: 40px;
+    margin: 35px;
+}
+
+.tit-art {
+    flex: 0.5;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    background-color: bisque;
+    border-bottom: 1px solid black;
+}
+
+.par-art {
+    flex: 1;
+}
+
+.data {
+    flex: 0.5;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
