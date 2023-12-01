@@ -6,8 +6,7 @@ function inserisciCards() {
     return
   }
   let date = new Date().toLocaleDateString()
-  let card = document.createElement('div')
-  card.className = 'card'
+
   document.getElementById('innerContainerCards').innerHTML += `
   <div class="cards">
   <div class="tit-art">
@@ -22,8 +21,6 @@ function inserisciCards() {
   </div>
 
   `
-  let innerContainer = document.getElementById('innerContainerCards')
-  innerContainer.appendChild(card)
 
   document.getElementById('insTitolo').value = ''
   document.getElementById('paragrafo').value = ''
