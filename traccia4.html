@@ -13,31 +13,20 @@
     <div class="content">
         <div class="contenitore">
             <p>Titolo:</p>
-            <input type="text" id="titolo" placeholder="Titolo" class="inserimento">
+            <input id='insTitolo' placeholder="Titolo" class="inserimento">
         </div>
         <div class="contenitore">
             <p>Paragrafo:</p>
-            <textarea type="text" id="paragrafo" placeholder="Scrivi qui il tuo paragrafo"
-                class="inserimento"></textarea>
+            <input id='paragrafo' placeholder="Scrivi qui il tuo paragrafo" class="inserimento"></input>
         </div>
         <div class="contenitore">
-            <button class="inserimento">
+            <button class="inserimento" onclick='inserisciCards()'>
                 Crea articolo
             </button>
         </div>
     </div>
-    <div>
-        <div class="card">
-            <div class="tit-art">
+    <div id='innerContainerCards' class="innerContainerCards">
 
-            </div>
-            <div class="par-art">
-
-            </div>
-            <div class="data">
-
-            </div>
-        </div>
     </div>
 
 </body>

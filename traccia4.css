@@ -17,30 +17,48 @@ p {
     height: 30px;
 }
 
-.card {
+.innerContainerCards {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
     display: flex;
     flex-direction: column;
-    height: 40vh;
-    width: 60vh;
-    background-color: aquamarine;
-    border-radius: 40px;
-    margin: 35px;
+    background-color: rgba(0, 0, 0, 0.268);
+    height: 300px;
+    width: 350px;
+    border-radius: 30px;
+    margin: 10px;
 }
 
 .tit-art {
     flex: 0.5;
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
-    background-color: bisque;
     border-bottom: 1px solid black;
+    padding-left: 50px;
 }
 
 .par-art {
     flex: 1;
+    padding-left: 30px;
 }
 
 .data {
     flex: 0.5;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.giorno {
+    margin-left: auto;
 }
